@@ -5,408 +5,112 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densityDpi=device-dpi" />
     <title>ERA - Animated coming soon countdown landingpage template</title>
     <link rel="icon" href="images/fav_ico.ico" type="images/ico">
-    <!-- <link rel="stylesheet" type="text/css" href="css/style.css"/> -->
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
-    <link rel="stylesheet" type="text/css" href="css/index.css"/>
-    <link rel="stylesheet" type="text/css" href="css/responsive.css"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <script type="text/javascript" src="js/jquery-1.12.4.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    
 </head>
 
 <body>
-    <div id="Wraper">
-        <div class="main-data">
-            <section class="intro" id="intro">
-                <div class="container text-center">
-                    <div class="ver-row1"></div>
-                    <div class="ver-row2"></div>
-                    <div class="ver-row3"></div>
-                    <div class="ver-row4"></div>
-                    <div class="ver-row5"></div>
-                    <div class="logo-holder">
-                        <a href="index.html">
-                            <img src="images/logo_v1.svg" alt="ERA" />
-                        </a>
-                        <h4 class="comingsoon-title">coming soon countdown</h4>
+    <div class="hidden_overflow">
+	<div class="container">
+        <div class="count-block">
+            <div class="head-area">
+                <a href="#" class="logo mob_logo"><img src="images/logo.svg" alt=" ERA"></a>
+                <div class="time-left-txt">Time Left Until <span class="down-op">Launching...</span></div>
+            </div>
+            <div class="middle-area">
+                <div class="countdown-row">
+                    <a href="#" class="logo"><img src="images/logo.svg" alt=" ERA"></a
+                    ><div class="counting-row">
+                        <div class="slot-type">
+                            <span class="num" id="day">54</span>
+                            <span class="param">days</span>
+                        </div
+                        ><div class="slot-type">
+                            <span class="num" id="hour">08</span>
+                            <span class="param">hours</span>
+                        </div
+                        ><div class="slot-type">
+                            <span class="num" id="min">32</span>
+                            <span class="param">min</span>
+                        </div
+                        ><div class="slot-type">
+                            <div class="num _INVISIBLE_" id="second">02</div>
+                            <span class="param">sec</span>
+                        </div>
                     </div>
-                    <div class="comingsoon-caption">
-                        <h1 class="comingsoon-desc">Animated coming soon countdown landingpage template <br>with multiple variants </h1>
-                        <div class="identify"><p>Handcrafted with love at</p> <img src="images/creative-era.svg" alt="creative-era"> <p><a href="http://www.creative-era.com/" target="_blank">Creative Era Design Studio</a></p></div>
-                        <div class="mouse-icon"><div class="wheel"></div></div>
-                    </div>
-                    <div class="verient-images-holder">
-                        <div class="vimage_parent step1">
-                            <img src="images/slideshow_verient.png" alt="slideshow_verient"/>
-                        </div>
-                        <div class="vimage_parent step2 animation-container" data-1="top:400px" data-400="top:0px">
-                            <img src="images/green_g_verient.svg" alt="slideshow_verient"/>
-                        </div>
-                        <div class="vimage_parent step3 animation-container" data-1="top:700px" data-500="top:0px">
-                            <img src="images/pink_g_verient.svg" alt="slideshow_verient"/>
-                        </div>
-                        <div class="vimage_parent step4 animation-container" data-1="top:1000px" data-600="top:0px">
-                            <img src="images/defaultverient.svg" alt="slideshow_verient"/>
-                        </div>
-                        <a href="#" class="call-to-action gradient_orange_btn"><span>BUY<br> NOW</span></a>
-                    </div>
-                </div>
-            </section>
-            <section class="default-verient">
-                <div class="container">
-                        <h2><span class="indexing">01</span>Default variant</h2>
-                        <div class="row clearfix">
-                            <div class="col-sm-6">
-                                <div class="variant-block leftAnim" data-1000="left:-1000px" data-1500="left:0">
-                                    <a href="index_white.html" target="_blank" class="linksimage"><img src="images/light-dark-template/default_variant_white.svg" alt="White variant"></a>
-                                    <a href="index_white.html" target="_blank" class="links">White <span class="icon-foreign"></span></a>
-                                </div>
+                    <div class="seconds-holder">
+                        <div class="circle-holder">
+                            <div class="dark_digit IE_HIDE">
+                                <img src="images/second.svg" class="round" alt="Clocks seconds">
                             </div>
-                            <div class="col-sm-6">
-                                <div class="variant-block rightAnim" data-1000="right:-1000px" data-1500="right:0">
-                                    <a href="index_nightmode.html" target="_blank" class="linksimage"><img src="images/light-dark-template/default_variant_black.svg" alt="Black variant"></a>
-                                    <a href="index_nightmode.html"  target="_blank" class="links">Black <span class="icon-foreign"></span></a>
-                                </div>
-                            </div>
-                        </div>
-                </div>
-            </section>
-            <section class="gradient-verient flat_blue white-font" 
-                data-2200="background-color:rgba(26, 156, 239, 1)"
-                data-3000="background-color:rgba(117, 24, 255,1)"
-                data-3400="background-color:rgba(252, 49, 161,1)"
-                data-4000="background-color:rgba(248, 69, 50,1)"
-                >
-                <div class="container">
-                    <div class="row clearfix">
-                        <div class="col-sm-4">
-                            <h2><span class="indexing">02</span>Gradient</h2>
-                            <ul class="variant-links">
-                                <li class="gradient_blue"><a href="index_gradient_blue.html" target="_blank">Blue <span class="icon-foreign"><span>LIVE PREVIEW</span></span></a></li
-                                ><li class="gradient_green"><a href="index_gradient_green.html" target="_blank">Green <span class="icon-foreign"><span>LIVE PREVIEW</span></span></a></li
-                                ><li class="gradient_orange"><a href="index_gradient_orange.html" target="_blank">Orange <span class="icon-foreign"><span>LIVE PREVIEW</span></span></a></li
-                                ><li class="gradient_magenta"><a href="index_gradient_magenta.html" target="_blank">Magenta <span class="icon-foreign"><span>LIVE PREVIEW</span></span></a></li
-                                ><li class="gradient_pink"><a href="index_gradient_pink.html" target="_blank">Pink <span class="icon-foreign"><span>LIVE PREVIEW</span></span></a></li
-                                ><li class="gradient_violet"><a href="index_gradient_violet.html" target="_blank">Purple <span class="icon-foreign"><span>LIVE PREVIEW</span></span></a></li>
-                            </ul>
-                            <div class="color-option-caption">
-                                <h5 class="block-title">06 COLOR OPTIONS</h5>
-                                <h3 class="subtitle">Bright and Colorful</h3>
-                                <p>We’ve chosen the bright color palette that arouses only positive emotions and is sure<br> to be loved by almost everyone</p>
-                            </div>
-                        </div>
-                        <div class="col-sm-8">
-                            <div class="color-variant-block first" data-1800="top:400px" data-2300="top:0px">
-                                <a href="index_gradient_blue.html" target="_blank" class="linksimage"><img src="images/gradient-template/gradient-blue-variant.svg" alt="Gradient blue"></a>
-                            </div>
-                            <div class="color-variant-block second" data-1800="top:800px" data-2500="top:0px">
-                                <a href="index_gradient_green.html" target="_blank" class="linksimage"><img src="images/gradient-template/gradient-green-variant.svg" alt="Gradient green"></a>
-                            </div>
-                            <div class="color-variant-block third" data-1800="top:1200px" data-2600="top:0px">
-                                <a href="index_gradient_orange.html" target="_blank" class="linksimage"><img src="images/gradient-template/gradient-orange-variant.svg" alt="Gradient orange"></a>
-                            </div>
-                            <div class="color-variant-block fourth" data-1600="top:1600px" data-2680="top:0px">
-                                <a href="index_gradient_magenta.html" target="_blank" class="linksimage"><img src="images/gradient-template/gradient-magenta-variant.svg" alt="Gradient magenta"></a>
-                            </div>
-                            <div class="color-variant-block fifth" data-2100="top:2000px" data-2750="top:0px">
-                                <a href="index_gradient_pink.html" target="_blank" class="linksimage"><img src="images/gradient-template/gradient-pink-variant.svg" alt="Gradient pink"></a>
-                            </div>
-                            <div class="color-variant-block sixth" data-2100="top:2400px" data-2800="top:0px">
-                                <a href="index_gradient_violet.html" target="_blank" class="linksimage"><img src="images/gradient-template/gradient-purple-variant.svg" alt="Gradient purple"></a>
+                            <svg class="dark_digit" width="100%" height="100%">
+                                <g id="clipPath">
+                                    <image xlink:href="images/second.svg" width="100%" height="100%" transform="" class="round" id="digitalsecond" alt="Clocks seconds">
+                                        <animateTransform attributeName="transform"
+                                        attributeType="XML"
+                                        type="rotate"
+                                        dur="10s"
+                                        repeatCount="indefinite"/>
+                                    </image>
+                                </g>
+                                <defs>
+                                    <clipPath id="hero-clip">
+                                        <rect x="94%" y="47.2%" fill="#ff0000" width="110" height="64"/>
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                            <div class="down_opacity_circle">
+                                <img src="images/second_.svg" class="round" id="digitalsecond" alt="Clocks seconds">
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
-            <section class="photo-verient">
-                <div class="container">
-                        <h2><span class="indexing">03</span>Photo variant</h2>
-                        <div class="row clearfix">
-                            <div class="col-sm-6">
-                                <div class="variant-block leftAnim" data-3300="left:-1000px" data-4000="left:0px">
-                                    <a href="index_image.html" target="_blank" class="linksimage"><img src="images/image-variant-single.png" alt="White variant"></a>
-                                    <a href="index_image.html" target="_blank" class="links">Single Image <span class="icon-foreign"></span></a>
-                                </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="variant-block rightAnim" data-3300="right:-1000px" data-4000="right:0px">
-                                    <a href="index_imageslider.html" target="_blank" class="linksimage"><img src="images/images-variant-slideshow.png" alt="Black variant"></a>
-                                    <a href="index_imageslider.html" target="_blank" class="links">Slideshow Images <span class="icon-foreign"></span></a>
-                                </div>
-                            </div>
-                        </div>
+                <div class="countdown-caption">
+                    <h2>Welcome!</h2>
+                    <p>
+                        We are happy to see you, our site is almost ready.
+                        <span class="dull-text">Please come back later and we'll surprise you!</span>
+                    </p>
                 </div>
-            </section>
-            <section class="flatcolor-variant flat_black white-font" data-4500="background-color:rgba(66, 66, 66,1)" data-6500="background-color:rgba(0,0,0,1)">
-                <div class="container">
-                    <div class="row clearfix">
-                        <div class="col-sm-4">
-                            <h2><span class="indexing">04</span>Flat Colors</h2>
-                            <ul class="variant-links">
-                                <li class="flat_cyan"><a href="index_flat_cyan.html" target="_blank">Cyan <span class="icon-foreign"><span>LIVE PREVIEW</span></span></a></li
-                                ><li class="flat_orange"><a href="index_flat_orange.html" target="_blank">Orange <span class="icon-foreign"><span>LIVE PREVIEW</span></span></a></li
-                                ><li class="flat_green"><a href="index_flat_green.html" target="_blank">Green <span class="icon-foreign"><span>LIVE PREVIEW</span></span></a></li
-                                ><li class="flat_Blue"><a href="index_flat_blue.html" target="_blank">Blue <span class="icon-foreign"><span>LIVE PREVIEW</span></span></a></li
-                                ><li class="flat_purple"><a href="index_flat_purple.html" target="_blank">Purple <span class="icon-foreign"><span>LIVE PREVIEW</span></span></a></li
-                                ><li class="flat_pink"><a href="index_flat_pink.html" target="_blank">Pink <span class="icon-foreign"><span>LIVE PREVIEW</span></span></a></li>
-                            </ul>
-                            <div class="color-option-caption">
-                                <h5 class="block-title">06 COLOR OPTIONS</h5>
-                                <h3 class="subtitle">Flat and Vibrant</h3>
-                                <p>The flat and vibrant color palette that especially against dark backgrounds, provide just the right amount of contrast to draw in the eye.</p>
-                            </div>
-                        </div>
-                        <div class="col-sm-8">
-                            <div class="color-variant-block first" data-4000="top:400px" data-4500="top:0px">
-                                <a href="index_flat_cyan.html" target="_blank" class="linksimage"><img src="images/flat-template/flat-cyan-variant.svg" alt="Flat Cyan"></a>
-                            </div>
-                            <div class="color-variant-block second" data-4000="top:800px" data-4700="top:0px">
-                                <a href="index_flat_orange.html" target="_blank" class="linksimage"><img src="images/flat-template/flat-orange-variant.svg" alt="Flat Orange"></a>
-                            </div>
-                            <div class="color-variant-block third" data-4000="top:1200px" data-4800="top:0px">
-                                <a href="index_flat_green.html" target="_blank" class="linksimage"><img src="images/flat-template/flat-green-variant.svg" alt="Flat Green"></a>
-                            </div>
-                            <div class="color-variant-block fourth" data-3800="top:1600px" data-4820="top:0px">
-                                <a href="index_flat_blue.html" target="_blank" class="linksimage"><img src="images/flat-template/flat-blue-variant.svg" alt="Flat Blue"></a>
-                            </div>
-                            <div class="color-variant-block fifth" data-4300="top:2000px" data-4950="top:0px">
-                                <a href="index_flat_purple.html" target="_blank" class="linksimage"><img src="images/flat-template/flat-purple-variant.svg" alt="Flat Purple"></a>
-                            </div>
-                            <div class="color-variant-block sixth" data-4300="top:2400px" data-5200="top:0px">
-                                <a href="index_flat_pink.html" target="_blank" class="linksimage"><img src="images/flat-template/flat-pink-variant.svg" alt="Flat Pink"></a>
-                            </div>
-                        </div>
-                    </div>
+            </div>
+            <footer>
+                <div class="social-row">
+                    <ul>
+                        <li>
+                            <a target="_blank" href="https://www.facebook.com/creativeeradesignstudio"><i class="icon-fb"></i></a>
+                        </li
+                        ><li>
+                            <a target="_blank" href="https://twitter.com/Creative_Era"><i class="icon-twitter"></i></a>
+                        </li 
+                        ><li>
+                            <a target="_blank" href="https://plus.google.com/115541947299524173393"><i class="icon-gplus"></i></a>
+                        </li
+                        ><li>
+                            <a target="_blank" href="https://www.linkedin.com/"><i class="icon-in"></i></a>
+                        </li
+                        ><li>
+                            <a target="_blank" href="https://www.youtube.com/"><i class="icon-youtube"></i></a>
+                        </li
+                        ><li>
+                            <a target="_blank" href="https://www.behance.net/"><i class="icon-be"></i></a>
+                        </li
+                        ><li>
+                            <a target="_blank" href="https://dribbble.com/creative-era"><i class="icon-dribbble"></i></a>
+                        </li
+                        ><li>
+                            <a target="_blank" href="https://in.pinterest.com/creativeera11"><i class="icon-pinterest"></i></a>
+                        </li>
+                    </ul>
                 </div>
-            </section>
-            <section class="video-verient">
-                <div class="container">
-                    <h2><span class="indexing">05</span>Video variant</h2>
-                    <div class="row clearfix">
-                        <div class="col-sm-6">
-                            <div class="variant-block leftAnim" data-5600="left:-1000px" data-6300="left:0px">
-                                <a href="index_video.html" target="_blank" class="linksimage"><img src="images/local-video.png" alt="White variant"></a>
-                                <a href="index_video.html" target="_blank" class="links">Local Video <span class="icon-foreign"></span></a>
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="variant-block rightAnim" data-5600="right:-1000px" data-6300="right:0px">
-                                <a href="index_videoYoutube.html" target="_blank" class="linksimage"><img src="images/youtube-video.png" alt="Black variant"></a>
-                                <a href="index_videoYoutube.html" target="_blank" class="links">Youtube Video <span class="icon-foreign"></span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="responsive-feature">
-                <div class="container">
-                    <div class="responsive-design-title-holder">
-                        <h5>MOBILE FIRST</h5>
-                        <h2>Responsive Design</h2>
-                    </div>
-                    <div class="res-holder">
-                        <div class="responsive-temp-img">
-                            <img src="images/responsive.png" alt="responsive design"/>
-                            <div id="slideshow">
-                                <img src="images/Slideshow/1.png" />
-                                <img src="images/Slideshow/2.png" />
-                                <img src="images/Slideshow/Era_Blue_Gradient.png" />
-                                <img src="images/Slideshow/Era_Green_Gradient.png" />
-                                <img src="images/Slideshow/Era_Orange_Gradient.png" />
-                                <img src="images/Slideshow/Era_Magenta_Gradient.png" />
-                                <img src="images/Slideshow/Era_Pink_Gradient.png" />
-                                <img src="images/Slideshow/Era_Purple_Gradient.png" />
-                                <img src="images/Slideshow/Era_Image.png" />
-                                <img src="images/Slideshow/Era_Image_slideshow.png" />
-                                <img src="images/Slideshow/Flat_Cyan.png" />
-                                <img src="images/Slideshow/Flat_Orange.png" />
-                                <img src="images/Slideshow/Flat_Green.png" />
-                                <img src="images/Slideshow/Era_FlatBlue.png" />
-                                <img src="images/Slideshow/Era_FlatDarkPurple.png" />
-                                <img src="images/Slideshow/Era_FlatPink.png" />
-                                <img src="images/Slideshow/Era_Local_Video.png" />
-                                <img src="images/Slideshow/Era_Youtube_Video.png" />
-                                <img src="images/Slideshow/1.png" />
-                            </div>
-                        </div>
-                    </div>
-                    <div class="responsive-desc">
-                        <p>Animated coming soon countdown is complete responsive design which render very well on a variety of mobile, tablet and desktop devices.</p>
-                    </div>
-                    <div class="variant-row">
-                            <div class="variant-group">
-                                <ul>
-                                    <li><a  target="_blank" 
-                                            class="black-font"
-                                            href="index_white.html"
-                                        ><i class="flat_white icon-foreign"></i></a>
-                                    </li>
-                                    <li><a  target="_blank"
-                                            class="black-font"
-                                            href="index_nightmode.html"
-                                            ><i class="flat_Black icon-foreign"></i></a>
-                                    </li>
-                                </ul>
-                                <span class="variant-cat-name">DEFAULT</span>
-                            </div>
-                            <div class="variant-group">
-                                <ul>
-                                    <li><a target="_blank"
-                                           class="black-font"
-                                           href="index_gradient_blue.html">
-                                           <i class="gradient_blue icon-foreign"></i></a>
-                                    </li>
-                                    <li><a target="_blank"
-                                           class="black-font"
-                                           href="index_gradient_green.html">
-                                           <i class="gradient_green icon-foreign"></i></a>
-                                    </li>
-                                    <li><a target="_blank"
-                                           class="black-font"
-                                           href="index_gradient_orange.html">
-                                           <i class="gradient_orange icon-foreign"></i></a>
-                                    </li>
-                                    <li><a target="_blank"
-                                           class="white-font"
-                                           href="index_gradient_magenta.html">
-                                           <i class="gradient_magenta icon-foreign"></i></a>
-                                    </li>
-                                    <li><a target="_blank"
-                                           class="white-font"
-                                           href="index_gradient_pink.html">
-                                           <i class="gradient_pink icon-foreign"></i></a>
-                                    </li>
-                                    <li><a target="_blank"
-                                           class="white-font"
-                                           href="index_gradient_violet.html">
-                                           <i class="gradient_violet icon-foreign"></i></a>
-                                    </li>
-                                </ul>
-                                <span class="variant-cat-name">gradient</span>
-                            </div>
-                            <div class="variant-group">
-                                <ul>
-                                    <li><a target="_blank"
-                                           class=""
-                                           href="index_image.html">
-                                           <i class="singal-image-bg icon-foreign"></i></a>
-                                    </li>
-                                    <li><a target="_blank"
-                                           class=""
-                                           href="index_imageslider.html">
-                                           <i class="slideshow-image-bg icon-foreign"></i></a>
-                                    </li>
-                                </ul>
-                                <span class="variant-cat-name">photo</span>
-                            </div>
-                            <div class="variant-group">
-                                <ul>
-                                    <li><a target="_blank"
-                                           class="black-font"
-                                           href="index_flat_cyan.html">
-                                           <i class="flat_cyan icon-foreign"></i></a>
-                                    </li>
-                                    <li><a target="_blank"
-                                           class="black-font"
-                                           href="index_flat_orange.html">
-                                           <i class="flat_orange icon-foreign"></i></a>
-                                    </li>
-                                    <li><a target="_blank"
-                                           class="black-font"
-                                           href="index_flat_green.html">
-                                           <i class="flat_green icon-foreign"></i></a>
-                                    </li>
-                                    <li><a target="_blank"
-                                           class="white-font"
-                                           href="index_flat_blue.html">
-                                           <i class="flat_Blue icon-foreign"></i></a>
-                                    </li>
-                                    <li><a target="_blank"
-                                           class="white-font"
-                                           href="index_flat_purple.html">
-                                           <i class="flat_purple icon-foreign"></i></a>
-                                    </li>
-                                    <li><a target="_blank"
-                                           class="white-font"
-                                           href="index_flat_pink.html">
-                                           <i class="flat_pink icon-foreign"></i></a>
-                                    </li>
-                                </ul>
-                                <span class="variant-cat-name">flat</span>
-                            </div>
-                            <div class="variant-group">
-                                <ul>
-                                    <li><a target="_blank"
-                                        class=""
-                                        href="index_video.html">
-                                        <i class="local-video-bg icon-foreign"></i></a>
-                                    </li>
-                                    <li><a target="_blank"
-                                        class=""
-                                        href="index_videoYoutube.html">
-                                        <i class="youtube-video-bg icon-foreign"></i></a>
-                                    </li>
-                                </ul>
-                                <span class="variant-cat-name">video</span>
-                            </div>
-                        </div>
-                </div>
-            </section>
-            <section class="total-variant">
-                <div class="container">
-                    <h4 class="total-variant-text"><span class="semi-bold">18</span> variants of animated coming soon countdown template</h4>
-                </div>
-            </section>
+                <p class="copyright-txt">
+                    © 2017. ERA Design Studio.  An Initiative of 
+                    <a href="http://creative-era.com/" target="_blank">creative-era.com</a>
+                </p>
+            </footer>
         </div>
-        <footer class="scrollme">
-            <div class="overlay for-desk" data-8200="opacity:1" data-8500="opacity:0" ></div>
-            <div class="overlay animateme for-tab" data-when="enter" data-from="0" data-to="1" data-opacity="0"></div>
-            <div class="footer-top feature-section gradient_magenta_red">
-                    <div class="container">
-                        <img src="images/logo_black_v1.svg" class="footer-era-logo" alt="ERA">
-                        <div class="secons_anim_holder"><img class="secons_anim" src="images/second_.svg" alt=""></div>
-                        <div class="countdown-desc">Animated coming soon countdown landingpage template with multiple variants</div>
-                        <ul>
-                            <li><a href="#"><i class="icon-vector"></i>Ratina Ready</a></li
-                                ><li><a href="#"><i class="icon-responsive"></i>Fully Responsive</a></li
-                                ><li><a href="#"><i class="icon-stopwatch"></i>Animated Countdown</a></li
-                                ><li><a href="#"><i class="icon-school-material"></i>Pixel Perfect</a></li>
-                            </ul>
-                        <a href="#" class="buy-btn">BUY NOW</a>
-                    </div>
-            </div>
-            <div class="footer-bottom">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-4 col-xs-5">
-                            <div class="hadicrafted-txt">HANDCRAFTED  <span>by</span> <a href="http://www.creative-era.com/" target="_blank" class="creative-era-footer-logo"><img src="images/creative_era_logo.svg" alt=""></a> </div>
-                        </div>
-                        <div class="col-sm-4">
-                            <div class="era-contact"><a href="http://www.creative-era.com/" target="_blank">www.creative-era.com</a> <span class="sep">|</span> <a href="mailto:hello@creative-era.com">hello@creative-era.com</a> </div>
-                        </div>
-                        <div class="col-sm-4">
-                            <div class="follow-row">
-                                <label class="follow-label">FOLLOW US</label
-                                ><ul>
-                                    <li><a href="https://dribbble.com/creative-era" target="_blank"><i style="background-image: url(images/dribble.svg)"></i></a></li
-                                    ><li><a href="https://www.facebook.com/creativeeradesignstudio" target="_blank"><i style="background-image: url(images/facebook.svg)"></i></a></li
-                                    ><li><a href="https://twitter.com/Creative_Era" target="_blank"><i style="background-image: url(images/twitter.svg)"></i></a></li
-                                    ><li><a href="https://www.instagram.com/creative_era11/" target="_blank"><i style="background-image: url(images/insta.svg)"></i></a></li
-                                    ><li><a href="https://plus.google.com/115541947299524173393" target="_blank"><i style="background-image: url(images/google.svg)"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
     </div>
-    
-    <button class="goTop" id="goTop"></button>
-    <script type="text/javascript" src="js/jquery-1.12.4.js"></script>
-    <script src="js/html5shiv-printshiv.js"></script>
-    <script src="js/respond.js"></script>
-    <script type="text/javascript" src="js/skrollr.min.js"></script>
-    <script type="text/javascript" src="js/jquery.scrollme.js"></script>
-    <script type="text/javascript" src="js/background.cycle.js"></script>
-    <script type="text/javascript" src="js/animation.js"></script>
-    
+</div>
 </body>
 </html>
